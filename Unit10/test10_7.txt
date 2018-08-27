@@ -1,0 +1,2 @@
+(a) 应该加一个vec.resize(lst.size())  因为copy需要前后一样大
+(b) 应该改为.resize reserve只是更改的分配的最大空间，但是其size并没有变大，里面的数据也没有变，有可能为NULL
