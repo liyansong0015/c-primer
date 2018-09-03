@@ -1,0 +1,2 @@
+int sz = 10;
+int sum = [sz](int a){return sz+a;};
